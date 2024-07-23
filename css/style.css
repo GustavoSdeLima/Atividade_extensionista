@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 04vw;
+    position: absolute;
+}
+
+.rodape {
+    background-color: #d9d9d9;
+    width: 206.5vh;
+    height: 04.3vw;
+}
+
+#selecionacidade {
+    margin-left: 5vw;
+}
+
+/* #selecionacidaderdp{ */
+/* margin-left: 35vw; */
+/* border: color #d9d9d956; */
+/*      */
+/* } */
+
+
+.selecionacidade {
+    height: 5vh;
+    width: 35vw;
+    border-radius: 8px;
+    border-style: hidden;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 2vh;
+    font-family: 'Roboto';
+}
+
+/* .selecionacidaderdp{
+    height: 5vh;
+    width: 35vw;
+    border-radius: 8px;
+    border-style: hidden;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 2vh;
+    font-family: 'Roboto';
+} */
+
+#localizacao {
+    height: 3vh;
+    padding-right: 1vw;
+}
+
+#localizacaordp {
+    height: 3vh;
+    padding-right: 1vw;
+}
+
+.cadastro {
+    font-family: 'Roboto';
+    color: #B54B2A;
+    border-style: none;
+    background-color: #d9d9d9;
+    width: 12vw;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
+.login {
+    font-family: 'Roboto';
+    border-style: none;
+    background-color: #d9d9d9;
+    width: 05vw;
+    font-size: medium;
+    cursor: pointer;
+}
+
+/* .dropbtn { */
+/* background-color: #3498DB; */
+/* color: white; */
+/* padding: 16px; */
+/* font-size: 16px; */
+/* border: none; */
+/* cursor: pointer; */
+/* } */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 2vw;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-login {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content-login a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-content-login a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.cadastraeloga {
+    margin-left: 2vw;
+}
+
+#logo {
+    margin-left: 10vw;
+}
+
+.logo {
+    width: 08vh;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+#conteudo {
+    background-image: url(/adopet/img/cadastroemail.png);
+    background-repeat: no-repeat;
+    background-position: 67vw;
+    background-size: 70vh;
+    display: flex;
+    height: 91vh;
+}
+
+#conteudocadastro {
+    background-image: url(/adopet/img/cadastroemail.png);
+    background-repeat: no-repeat;
+    background-position: 67vw;
+    background-size: 70vh;
+    display: flex;
+    height: 91vh;
+}
+
+#txt1 {
+    margin-top: 10vh;
+    font-family: 'Roboto', serif;
+    font-size: 100px;
+    justify-content: left;
+    margin-left: 10vw;
+}
+
+#adopet {
+    color: #B54B2A;
+}
+
+#txt2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    width: 30vw;
+    margin-top: 3vh;
+    font-size: 60px;
+}
+
+br {
+    line-height: 0;
+}
+
+#cadtutor {
+    font-weight: lighter;
+    margin-top: 10vh;
+    font-family: 'Roboto', serif;
+    font-size: 50px;
+    justify-content: left;
+    margin-left: 10vw;
+}
+
+#cadastrotutor {
+    font-weight: bold;
+    margin-top: 10vh;
+    font-family: 'Roboto', serif;
+    font-size: 50px;
+    justify-content: left;
+}
+
+#criaconta {
+    margin-top: 30vh;
+    font-family: 'Roboto', serif;
+    font-size: 30px;
+}
+
+#digitaemail {
+    margin-top: 30vh;
+    height: 05vh;
+    width: 25vw;
+    justify-content: left;
+    margin-left: -27vw;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    padding-left: 1.5vh;
+    border-radius: 11px;
+    border-color: black;
+}
+
+#digitaemailtutor {
+    margin-top: 30vh;
+    height: 05vh;
+    width: 25vw;
+    justify-content: left;
+    margin-left: -20vw;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    padding-left: 1.5vh;
+    border-radius: 11px;
+    border-color: black;
+}
+
+#digitasenha {
+    margin-top: 40vh;
+    height: 05vh;
+    width: 25vw;
+    justify-content: left;
+    margin-left: -30vw;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    padding-left: 1.5vh;
+    border-radius: 11px;
+    border-color: black;
+}
+
+#digitasenhalogin {
+    margin-top: 40vh;
+    height: 05vh;
+    width: 25vw;
+    justify-content: left;
+    margin-left: -30vw;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    padding-left: 1.5vh;
+    border-radius: 11px;
+    border-color: black;
+}
+
+#digitaemaillogin {
+    margin-top: 30vh;
+    height: 05vh;
+    width: 25vw;
+    justify-content: left;
+    margin-left: -30vw;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    padding-left: 1.5vh;
+    border-radius: 11px;
+    border-color: black;
+}
+
+#recebeemail {
+    margin-top: 20vw;
+    color: gray;
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    margin-left: -53vh;
+}
+
+#termosdeusoinst {
+    transform: scale(1.8);
+    margin-left: -16vw;
+    margin-top: 50vh;
+}
+
+#queroemailinst {
+    transform: scale(1.8);
+    margin-left: -18.6vw;
+    margin-top: 55vh;
+}
+
+#termousoinst {
+    margin-top: -3vh;
+    margin-left: -29vh;
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: 200;
+    color: gray;
+}
+
+#receboemailinst {
+    margin-top: -3vh;
+    margin-left: -34vh;
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: 200;
+    color: gray;
+}
+
+#termosdeusotut {
+    transform: scale(1.8);
+    margin-left: -16vw;
+    margin-top: 50vh;
+}
+
+#queroemailtut {
+    transform: scale(1.8);
+    margin-left: -18.6vw;
+    margin-top: 55vh;
+}
+
+#termousotut {
+    margin-top: -3vh;
+    margin-left: -29vh;
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: 200;
+    color: gray;
+}
+
+#receboemailtut {
+    margin-top: -3vh;
+    margin-left: -34vh;
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: 200;
+    color: gray;
+}
+
+.captcha {
+    color: gray;
+    font-family: 'Roboto', serif;
+    font-size: medium;
+    margin-top: 61vh;
+    margin-left: -22vw;
+}
+
+#btcadastrar {
+    width: 15vw;
+    height: 5vh;
+    margin-left: -19vw;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 70vh;
+    color: #626262;
+    background-color: #d9d9d9;
+    font-family: 'Roboto', serif;
+    font-size: larger;
+
+}
+
+#conteudologin {
+    background-image: url(/adopet/img/login.png);
+    background-repeat: no-repeat;
+    background-position: 62vw;
+    background-size: 90vh;
+    display: flex;
+    height: 91vh;
+}
+
+#login {
+    font-family: 'Roboto', Times, serif;
+    font-weight: lighter;
+    width: 30vw;
+    font-size: 40px;
+    margin-top: 20vh;
+    margin-left: 18vw;
+}
+
+#recaptcha {
+    font-family: 'Roboto', Times, serif;
+    font-weight: lighter;
+    width: 70vw;
+    font-size: 10px;
+    margin-top: 47vh;
+    margin-left: -28vw;
+    color: #9D9D9D;
+}
+
+#esquecisenha {
+    font-family: 'Roboto', Times, serif;
+    font-weight: lighter;
+    width: 70vw;
+    font-size: 20px;
+    margin-top: 54vh;
+    margin-left: -64vw;
+    color: #9D9D9D;
+}
+
+#mantenhaconectado {
+    font-family: 'Roboto', Times, serif;
+    font-weight: lighter;
+    width: 70vw;
+    font-size: 20px;
+    margin-top: 60vh;
+    margin-left: -70.8vw;
+    color: #9D9D9D;
+}
+
+#mantenhaconectadocheck{
+    transform: scale(1.5);
+    margin-right: 0.5vw;
+}
+
+#entrar{
+    background-color: #B54B2A;
+    width: 9vw;
+    height: 5vh;
+    margin-top: 32vw;
+    margin-left: -68.8vw;
+    border-radius: 12px;
+    border-style: none;
+}
+
+#querocadastrar{
+    margin-top: 36vw;
+    margin-left: -18vh;
+    font-size: 20px;
+    color: #9D9D9D;
+}
