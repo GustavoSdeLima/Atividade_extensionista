@@ -168,16 +168,16 @@ li {
 }
 
 #conteudo {
-    background-image: url(/adopet/img/cadastroemail.png);
+    background-image: url(../img/inicial.png);
     background-repeat: no-repeat;
-    background-position: 67vw;
-    background-size: 70vh;
+    background-position: 71vw;
+    background-size: 60vh;
     display: flex;
     height: 91vh;
 }
 
 #conteudocadastro {
-    background-image: url(/adopet/img/cadastroemail.png);
+    background-image: url(../img/cadastroemail.png);
     background-repeat: no-repeat;
     background-position: 67vw;
     background-size: 70vh;
@@ -388,7 +388,7 @@ br {
 }
 
 #conteudologin {
-    background-image: url(/adopet/img/login.png);
+    background-image: url(../img/login.png);
     background-repeat: no-repeat;
     background-position: 62vw;
     background-size: 90vh;
