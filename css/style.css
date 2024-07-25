@@ -168,7 +168,7 @@ li {
 }
 
 #conteudo {
-    background-image: url(./img/inicial.png);
+    background-image: url(../img/inicial.png);
     background-repeat: no-repeat;
     background-position: 71vw;
     background-size: 60vh;
@@ -177,7 +177,7 @@ li {
 }
 
 #conteudocadastro {
-    background-image: url(img/cadastroemail.png);
+    background-image: url(../img/cadastroemail.png);
     background-repeat: no-repeat;
     background-position: 67vw;
     background-size: 70vh;
